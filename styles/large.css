@@ -1,0 +1,27 @@
+@media screen and (min-width: 640px) {
+    span img{
+        margin: 1rem;
+        margin-left: 60%;
+        
+    }
+    h1 {
+    text-align: left;
+    padding-top: 5%;
+    
+    }
+    nav ul {
+        display: flex;
+        
+    }
+    nav ul li {
+    flex: 1 1 100%;
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .card1 {
+        grid-column: 1/3;
+    }
+    
+
+}

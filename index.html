@@ -5,17 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>[Mahonrri Mendez] - WDD 230 - Web Frontend Development</title>
-    <link rel="stylesheet" href="styles/base.css">
+    
 
     <meta name="author" content="Mahonrri Mendez"/>
-    <meta
-        name="description"
-        content="This page will be dedicated to complete my WDD 230 - Web Frontend Development
+    <meta name="description" content="This page will be dedicated to complete my WDD 230 - Web Frontend Development
         trying to demostrate/overcome that I'm capable to complete the requirements to approved this
         course, by Mahonrri Mendez." />
 
-    <link rel="stylesheet" href="styles/normalize.css">
+    <!--  links for CSS and js-->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
 
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
 
@@ -24,15 +25,15 @@
     <meta property="og:url"                content="http://127.0.0.1:5500/index.html/index.html" />
     <meta property="og:type"               content="Home page website" />
     <meta property="og:title"              content="Mahonrri's Home Page" />
-    <meta property="og:description"        content="Web Frontend Development Jan 2024" />
+    <meta property="og:description"        content="Web Frontend Development June 2024" />
     <meta property="og:image"              content="https://unifranz.edu.bo/wp-content/uploads/2023/09/1-8.jpeg" />
 
 </head>
 
 <body>
     <header>
-        <img src="images/placeholder.PNG.png" alt="fotoBoda" style="width: 100px; height: 150px;">
-        <h1>MAHONRRI MENDEZ</h1>
+        <span><img src="images/placeholder.PNG.png" alt="fotoBoda" style="width: 100px; height: 150px;"></span>
+        <h1>Mahonrri Mendez</h1>
     </header>
     <nav>
         <ul>
@@ -55,26 +56,51 @@
     </nav>
     <main>
         <h2>WDD 230: Web Frontend Development</h2>
-        <section>
+        <div class="cards">
+        <section class="card1">
             
             <h3>Learning Activities</h3>
             <ul>
                 <li>
-
+                    Week 01: <a href="">asd</a> | <a href="">asdd</a> | <a href="">321</a>
+                </li>
+                <li>
+                    Week 02: <a href="">asd</a> | <a href="">asdd</a> | <a href="">321</a>
+                </li>
+                <li>
+                    Week 03: <a href="">asd</a> | <a href="">asdd</a> | <a href="">321</a>
+                </li>
+                <li>
+                    Week 04: <a href="">asd</a> | <a href="">asdd</a> | <a href="">321</a>
+                </li>
+                <li>
+                    Week 05: <a href="">asd</a> | <a href="">asdd</a> | <a href="">321</a>
+                </li>
+                <li>
+                    Week 06: <a href="">asd</a> | <a href="">asdd</a> | <a href="">321</a>
                 </li>
             </ul>
         </section>
-        <section>
+
+
+        <section class="card2">
             <h3>Information</h3>
+            <p>Cochabamba, Bolivia</p>
+            <p> 16°C - Cloudy</p>
+            <p>Page Visits: pending</p>
 
         </section>
+    </div>
     </main>
     <footer>
-        <p>The copyright symbol and current year where the year will be dynamically populated using JavaScript code.</p>
-        <p>Mahonrri Mendez</p>
-        <p>Bolivia</p>
-        <img src="images/bolivia.jpg" alt="Bolivia Flag" width="200px">
-
-        <p>LINK lastModified</p>
+        <p>
+            <span id="currentyear"></span>
+            ©️ Mahonrri Mendez | Cochabamba Bolivia <br>
+            <p id="lastModified"></p>
+            <img src="images/bolivia.jpg" alt="Bolivia Flag" width="45px"> </p>
+        
     </footer>
+    
+    <script src="scripts/getdates.js" ></script> 
+
 </body>
