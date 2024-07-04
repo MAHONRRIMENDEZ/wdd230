@@ -24,8 +24,7 @@
 
   nav  {
     background-color: #9cd2d3;
-    margin: 0 auto;
-    max-width: 800;
+    margin: 0 auto;;
 }
 
 #myButton::before {
