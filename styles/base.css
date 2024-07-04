@@ -70,12 +70,16 @@ ul.open {
     text-decoration: none;
 }
 
-h2 {
+h1 {
     text-align: center;
     text-decoration: underline;
     margin: 1rem;
     
   }
+h2 {
+  text-align: center;
+  margin: 1rem;
+}
 h3 {
   text-align: center;
   background-color: #0799b6;
