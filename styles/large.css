@@ -9,13 +9,21 @@
     padding-top: 8%;
     
     }
-    nav ul {
+    /*Esta parte es importante mahito usamos la referencia al menu abierto y cerrado para que el menu sea flex en la vista grande sin importar si el hamburguer boton fue apretado o no*/
+    ul.menuLinks, ul.menuLinks.open {
         display: flex;
-        
     }
     nav ul li {
-    flex: 1 1 100%;
+        flex: 1 1 80%;
+        }
+    #myButton {
+        display: none;
     }
+
+    ul.menuLinks a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    /* CARDS DESIGN FOR larger view*/
     .cards{
         grid-template-columns: 1fr 1fr 1fr;
     }

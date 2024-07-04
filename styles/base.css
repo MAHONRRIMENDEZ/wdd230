@@ -24,7 +24,37 @@
     margin: 0 auto;
     max-width: 800;
 }
-  
+
+#myButton::before {
+  content: "\2630"; /*HAM MENU STYLE*/
+}
+
+#myButton.open::before {
+  content: "X";
+}
+
+#myButton {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: right;
+  padding: .25rem 2vw;
+}
+/*Esto señala la pagina en la que estas*/
+li.current-menu-item a {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+ul.menuLinks {
+  display: none;
+  list-style-type: none;
+}
+ul.open {
+  display: block;  
+}
+
   nav ul {
     list-style-type: none;
 }
@@ -35,13 +65,6 @@
     text-align: center;
     padding: 1rem;
     text-decoration: none;
-}
-  
-nav a:hover {
-    border: 1px solid #fff;
-}
-.active{
-    color: yellow;
 }
 
 h2 {
@@ -87,8 +110,12 @@ section ul li {
     background-color: #C53678;
     color: white;
     padding: 1rem;
-    text-align: center;
-  
+    display: flex;
+    justify-content: center;
+    
+}
+footer img {
+  margin-left: 1rem;
 }
 
 
