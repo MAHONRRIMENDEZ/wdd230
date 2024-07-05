@@ -111,7 +111,9 @@ h3 {
 .card1 ul li{
   padding: 0.5rem;
 }
-
+.card1, .card2 {
+  background-color: #9cd2d3;
+}
 
 section{
     text-align: center;
@@ -142,10 +144,9 @@ footer img {
 body.dark-mode {
   background-color: #333333;
   color: #f5eded;
+  border: solid 1px #f5eded;
 }
-.card1, .card2 {
-  background-color: #9cd2d3;
-}
+
 
 
 
