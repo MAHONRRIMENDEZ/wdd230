@@ -6,8 +6,6 @@ hamburguerElement.addEventListener('click', () => {
     hamburguerElement.classList.toggle('open')
 })
 
-
-
 function getCurrentYear() {
     const currentYearElement = document.getElementById('currentyear');
     const currentYear = new Date().getFullYear();
@@ -22,3 +20,14 @@ function getLastModifiedDate() {
 }
 getCurrentYear();
 getLastModifiedDate();
+
+// Dark mode
+
+const darkModeToggle = document.querySelector('#dark-mode-toggle');
+const body = document.body;
+
+darkModeToggle.addEventListener('click', function() {
+    
+    body.classList.toggle('dark-mode');
+});
+

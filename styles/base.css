@@ -3,6 +3,7 @@
   font-family: 'roboto', Times, serif;
 }
   header {
+    position: relative;
     background-color: #0799b6;
     display: grid; 
     grid-template-columns: 1fr 1fr; 
@@ -15,6 +16,16 @@
     margin-left: 10%;
     
 }
+
+#dark-mode-toggle {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
 .titlename {
     text-decoration: none;
     text-align: left;
@@ -101,6 +112,7 @@ h3 {
   padding: 0.5rem;
 }
 
+
 section{
     text-align: center;
     padding: 1rem;
@@ -125,7 +137,15 @@ footer img {
   width: 45px;
 }
 
+/*Dark mode*/
 
+body.dark-mode {
+  background-color: #333333;
+  color: #f5eded;
+}
+.card1, .card2 {
+  background-color: #9cd2d3;
+}
 
 
 
