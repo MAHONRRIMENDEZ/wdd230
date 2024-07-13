@@ -156,6 +156,9 @@ h3 {
 .maps{
   margin: 1rem;
   padding: 1.5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
 }
 .maps1{
   width: 100%;
