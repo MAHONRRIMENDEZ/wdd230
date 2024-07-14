@@ -146,8 +146,10 @@ li.current-menu-item a {
 }
 /*Discover page large*/
 .stats {
-    text-align: left;
+    text-align: center;
     display: block;
+    margin: 1rem;
+    padding: 1rem;
     
 }
 .stats h3{
@@ -180,14 +182,16 @@ li.current-menu-item a {
 }
 .gallery img{
     border-radius: 15px;
-}
-.gallery img:hover{
-    box-shadow: 0 0 50px #333;
-    rotate: .05turn;
-	border: 1px solid rgba(0,0,0,.3);
-	padding: 1px;
+    max-width: 600px;
+    width: 100%;
+    height: auto;
 }
 
+.discover{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
 
 /* Footer */
 footer {
