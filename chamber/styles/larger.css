@@ -67,7 +67,7 @@
     }
     .gallery img:hover{
         box-shadow: 0 0 50px #333;
-        rotate: 0.05turn;
+        rotate: .05turn;
         border: 1px solid rgba(0,0,0,.3);
         padding: 1px;
     }
