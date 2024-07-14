@@ -32,6 +32,8 @@ darkModeToggle.addEventListener('click', function() {
     body.classList.toggle('dark-mode');
 });
 
+
+// number of visits
 const visitsDisplay = document.querySelector(".visits");
 
 let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;

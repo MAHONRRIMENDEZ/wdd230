@@ -127,20 +127,65 @@ li.current-menu-item a {
     margin: 1rem;
 }
 
-.cards h3 {
+.cards h3, .cards h4 {
     font-size: 1.5rem;
-    text-align: left;
+    text-align: center;
     padding: 1rem;
     text-decoration: underline;
 }
-h4 {
+
+.information, .information p {
     text-align: center;
-    padding: 0.5rem;
-    margin-top: -0.25rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
 }
+
 .bussines p {
     color: #b646cd;
     
+}
+/*Discover page large*/
+.stats {
+    text-align: left;
+    display: block;
+    
+}
+.stats h3{
+    color: var(--accent-color);
+    padding: 1rem;
+    font-size: 2.5rem;
+    
+}
+.stats h4{
+    font-size: 1.5rem;
+    margin: 1rem;
+    margin-top: 2rem;
+    
+}
+.stats p {
+    margin-top: 1rem;
+    text-align: justify;
+}
+.label, .visits{
+    font-size: 2rem;
+}
+.gallery figcaption{
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+.gallery figure{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+.gallery img{
+    border-radius: 15px;
+}
+.gallery img:hover{
+    box-shadow: 0 0 50px #333;
+    rotate: .05turn;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 1px;
 }
 
 
