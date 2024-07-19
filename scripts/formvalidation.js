@@ -1,5 +1,17 @@
 // check password 
 
+const email = document.querySelector("#email");
+const em = document.querySelector("#emailwrong");
+
+email.addEventListener('focusout',controlar)
+
+function controlar() {
+    
+}
+
+
+
+
 
 const password1 = document.querySelector("#password");
 const password2 = document.querySelector("#confirm_password");
@@ -20,27 +32,18 @@ function controlar() {
         //console.log('match good')
         fb.textContent=""
     }
-}
-
-
-// email check
-const email = document.querySelector("#email");
-const em = document.querySelector("#emailwrong");
-
-email.addEventListener('focusout',controlar)
-
-function controlar() {
     if (!email.value.endsWith("@byui.edu")) {
         email.value=""
-        email.focus()
+        
         em.textContent = "Please enter a valid email address ending with @byui.edu"
     } else {
         em.textContent=""
     }
 }
 
+
+
+// rating #
 function updateRating(value) {
     document.getElementById("rating_display").textContent = value;
 }
-
-
