@@ -1,7 +1,10 @@
-* {
+:root {
     margin: 0;
-    font-family: 'roboto', Times, serif;
+    --font-family: 'roboto', Times, serif;
     padding: 0;
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
 }
 
 form {
