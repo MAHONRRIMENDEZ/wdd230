@@ -22,6 +22,8 @@ function controlar() {
     }
 }
 
+
+// email check
 const email = document.querySelector("#email");
 const em = document.querySelector("#emailwrong");
 
@@ -41,4 +43,4 @@ function updateRating(value) {
     document.getElementById("rating_display").textContent = value;
 }
 
-validatePasswords();
+
