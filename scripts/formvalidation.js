@@ -22,6 +22,20 @@ function controlar() {
     }
 }
 
+const email = document.querySelector("#email");
+const em = document.querySelector("#emailwrong");
+
+email.addEventListener('focusout',controlar)
+
+function controlar() {
+    if (!email.value.endsWith("@byui.edu")) {
+        email.value=""
+        email.focus()
+        em.textContent = "Please enter a valid email address ending with @byui.edu"
+    } else {
+        em.textContent=""
+    }
+}
 
 function updateRating(value) {
     document.getElementById("rating_display").textContent = value;
