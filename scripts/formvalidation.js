@@ -35,7 +35,7 @@ function controlar() {
     if (!email.value.endsWith("@byui.edu")) {
         email.value=""
         
-        em.textContent = "Please enter a valid email address ending with @byui.edu"
+        em.textContent = "Please make sure to enter a valid email address ending with @byui.edu"
     } else {
         em.textContent=""
     }
