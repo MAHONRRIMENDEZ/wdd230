@@ -239,3 +239,76 @@ footer .container {
     color: var(--secondary-color);
     padding: 10px;
 }
+
+/*---------------FORM STYLING----------------------*/
+.wf1{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1190px;
+}
+.wf1 fieldset{
+    margin: 2rem 0;
+    border: 1px solid var(--accent-color);
+    border-radius: 6px;
+    padding: 1rem 3%;
+}
+
+.wf1 legend{
+    color: #223677;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.wf1 label{
+    display: block;
+    padding-top: 1rem;
+    color: var(--text-color);
+    font-size: 1rem;
+    margin-left: 1.5rem;
+}
+.wf1 div{
+    padding-top: 1rem;
+    color: #223677;
+    
+}
+.wf1 input[type="text"],
+.wf1 input[type="tel"],
+.wf1 input[type="email"],
+.wf1 select,
+.wf1 textarea{
+    background-color: var(--secondary-color);
+    display: block;
+    border: solid 1px var(--accent-color);
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 650px;
+    appearance: none;
+}
+
+.wf1 input[type="radio"]{
+    margin-right: 6px;
+}
+.wf1 input[type="submit"]{
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 6px;
+    padding: 0.8rem;
+    width: 96%;
+    max-width: 600px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 5px 5px 5px #999;
+    cursor: pointer;
+}
+
+.wf1 input:required{
+    border-right: solid 5px red;
+}
+
+.wf1 input:required:valid{
+    border-right: solid 5px green;
+}
+

@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="styles/form.css">
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,10 +35,10 @@
             <nav>
                 <button id="myButton"></button>
                 <ul class="menuLinks">
-                    <li class="current-menu-item"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
                     <li><a href="">Directory</a></li>
-                    <li><a href="">Join</a></li>
+                    <li class="current-menu-item"><a href="join.html">Join</a></li>
                     
                 </ul>
             </nav>
@@ -46,15 +46,41 @@
     </header>
     <main>
     <section id="main-content"> 
-            <form method="get" action="thanks.html">
+            <form method="get" action="thankyou.html" class="wf1">
                 <fieldset>
-                    <legend>Applicant information</legend>
-                    <label>User Name*<input type="text" id="userName" name="uname" required></label>
+                    <legend>Applicant's information</legend>
+
+                    <label>First name*<input type="text" id="fname" name="first name" required></label>
+
+                    <label>Last name*<input type="text" id="lname" name="last name" required></label>
+
+                    <label>Title or position<input type="text" id="title" name="title" pattern="[A-Za-z\- ]{7,}"></label>
+                    
+                    <label>Email*<input type="email" id="email" name="email" required placeholder="someone@example.com"></label>
+
+                    <label>Mobile phone number*<input type="tel" id="phone" name="phone" required placeholder="1112223333"></label>
+
+                    <label>Business/organization's name*<input type="text" id="business" name="business" required></label>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Membership information</legend>
+                    <div class="secmessage">Choose a membership level (optional)</div>
+                    <label><input type="radio" name="level" value="NP Membership"> Non profit organizations</label>
+                    <label><input type="radio" name="level" value="Bronze Membership"> Bronze Membership</label>
+                    <label><input type="radio" name="level" value="Silver Membership"> Silver Membership</label>
+                    <label><input type="radio" name="level" value="Gold Membership"> Gold Membership</label>
+
+                    <label>Business/Organization Description:<br>
+                    <textarea id="description" name="description" rows="4" cols="40" placeholder="Enter a brief description here..." required></textarea><br></label>
+
+                    <input type="hidden" id="timestamp" name="timestamp" value="" readonly>
+
+                </fieldset>
                     
 
-                    <label>Email Addres*<input type="password" id="password" name="password"></label>
-                </fieldset>
-                <input type="submit" value="">
+                
+                <input type="submit" value="Send application" class="submitb">
             </form>
     </section> 
             

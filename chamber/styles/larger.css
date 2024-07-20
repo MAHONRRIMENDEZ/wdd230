@@ -79,6 +79,14 @@
         align-items: center;
     }
 
-    
+    /*---------------FORM STYLING----------------------*/
+    .wf1{
+        text-align: left;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    fieldset, .submitb {
+        grid-column: 1/3;
+    }
 
 }
