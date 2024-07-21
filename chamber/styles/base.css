@@ -145,26 +145,26 @@ li.current-menu-item a {
     
 }
 /*Discover page large*/
-.stats {
+.stats, .newstats {
     text-align: center;
     display: block;
     margin: 1rem;
     padding: 1rem;
     
 }
-.stats h3{
+.stats h3, .newstats h3{
     color: var(--accent-color);
     padding: 1rem;
     font-size: 2.5rem;
     
 }
-.stats h4{
+.stats h4, .newstats h4{
     font-size: 1.5rem;
     margin: 1rem;
     margin-top: 2rem;
     
 }
-.stats p {
+.stats p, .newstats p {
     margin-top: 1rem;
     text-align: justify;
 }
@@ -312,3 +312,17 @@ footer .container {
     border-right: solid 5px green;
 }
 
+.newstats li {
+    list-style: inside;
+    text-align: justify;
+    margin: .25rem;
+    margin-top: .5rem;
+}
+.thankyou {
+    margin: 5rem;
+    border: solid 1px var(--accent-color);
+    border-radius: 6px;
+    padding: 0.5rem;
+    max-width: 900px;
+    text-align: center;
+}

@@ -4,9 +4,9 @@
     <!--  Meta information AND title  -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Cochabamba Chamber of Commerce</title>
+    <title>Join - Cochabamba Chamber of Commerce</title>
     <meta name="author" content="Mahonrri Mendez">
-    <meta name="description" content="This page will work as a Home page for the chamber of commerce website in the city of cochabamba, as this will be a chamber of commerce for my born city and the main project of this course by Mahonrri Mendez">
+    <meta name="description" content="This page will work as a Join form page for the chamber of commerce website in the city of cochabamba, as this will be a chamber of commerce for my born city and the main project of this course by Mahonrri Mendez">
 
     <!--  Social Media  -->
     <meta property="og:title" content="Mahonrri Mendez - Chamber Home page">
@@ -46,6 +46,60 @@
     </header>
     <main>
     <section id="main-content"> 
+        <div class="membership">
+            <div class="newstats">
+                <h3>Memberships</h3>
+                <h4>1. Non-Profit Membership</h4>
+                <p>Cost: $250 per year</p>
+                <p><b>Benefits:</b></p>
+                <ul>
+                    <li>Listing in the chamber's online directory</li>
+                    <li>Access to chamber networking events</li>
+                    <li>Subscription to chamber newsletters</li>
+                    <li>Participation in chamber committees</li>
+                    <li>Recognition as a non-profit supporter on the chamber's website</li>
+                </ul>
+                
+                <h4>2. Bronze Membership</h4>
+                <p>Cost: $500 per year</p>
+                <p><b>Benefits (includes Non-Profit benefits plus):</b></p>
+                <ul>
+                    <li>Enhanced listing in the chamber's online directory with a logo and description</li>
+                    <li>Discounted rates for chamber-sponsored training sessions and workshops</li>
+                    <li>Access to member-only networking events</li>
+                    <li>One free spotlight feature on the chamber's website homepage per year</li>
+                    <li>Access to member-to-member discount programs</li>
+                    <li>Opportunity to host a chamber networking event at their location</li>
+                </ul>
+
+                <h4>3. Silver Membership</h4>
+                <p>Cost: $1,000 per year</p>
+                <p><b>Benefits (includes Bronze benefits plus):</b></p>
+                <ul>
+                    <li>Priority placement in the chamber's online directory</li>
+                    <li>Two free spotlight features on the chamber's website homepage per year</li>
+                    <li>Exclusive invitation to a quarterly executive luncheon with local business leaders</li>
+                    <li>Sponsorship opportunities for chamber events and programs</li>
+                    <li>Additional discounts on advertising opportunities with the chamber</li>
+                    <li>Access to member-only educational webinars and seminars</li>
+                </ul>
+                
+                <h4>4. Gold Membership</h4>
+                <p>Cost: $2,500 per year</p>
+                <p><b>Benefits (includes Silver benefits plus):</b></p>
+                <ul>
+                    <li>Premier placement and enhanced listing in the chamber's online directory</li>
+                    <li>Four free spotlight features on the chamber's website homepage per year</li>
+                    <li>Recognition as a Gold Member in chamber communications and events</li>
+                    <li>Complimentary tickets to all chamber networking events and workshops</li>
+                    <li>Priority sponsorship opportunities at major chamber events</li>
+                    <li>Annual private consultation with chamber leadership on business issues</li>
+                    <li>Special invitation to an exclusive annual appreciation dinner with the chamber board</li>
+                </ul>
+
+                
+            </div>
+        
             <form method="get" action="thankyou.html" class="wf1">
                 <fieldset>
                     <legend>Applicant's information</legend>
@@ -74,16 +128,17 @@
                     <label>Business/Organization Description:<br>
                     <textarea id="description" name="description" rows="4" cols="40" placeholder="Enter a brief description here..." required></textarea><br></label>
 
-                    <input type="hidden" id="timestamp" name="timestamp" value="" readonly>
-
+                    <input type="hidden" id="timestamp" name="timestamp" value="readonly" readonly>
                 </fieldset>
                     
 
                 
                 <input type="submit" value="Send application" class="submitb">
             </form>
-    </section> 
             
+        </div>            
+    </section> 
+    
     </main>    
     <footer>
         <div class="container">
