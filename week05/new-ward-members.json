@@ -1,0 +1,26 @@
+{
+    "familyName" : "Mendez",
+    "dateOfMove" : "05/01/2024",
+    "numberOfPeople" : "5",
+    "visited" : "No",
+    "familyMembers" : [
+        {
+            "name" : "Mahonrri Mendez",
+            "Gender" : "male",
+            "birthdate" : "06/11/1999"
+            
+        },
+        {
+            "name" : "Valeria Usseglio",
+            "Gender" : "female",
+            "birthdate" : "06/22/1998"
+            
+        },
+        {
+            "name" : "Emma Mendez",
+            "Gender" : "female",
+            "birthdate" : "20/08/2025"
+            
+        }
+    ]
+}

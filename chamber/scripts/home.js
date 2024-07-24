@@ -45,3 +45,8 @@ localStorage.setItem("numVisits-ls", numVisits);
 // Get current date and time
 var currentTimestamp = new Date().toISOString().slice(0, 19).replace('T', ' ');
 document.getElementById("timestamp").value = currentTimestamp;
+
+
+const url = 'https://pokeapi.co/api/v2/pokemon/ditto';
+const results = fetch(url);
+console.log(results);
