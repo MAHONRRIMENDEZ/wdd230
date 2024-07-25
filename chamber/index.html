@@ -45,8 +45,16 @@
     </header>
     <main>
     <section id="main-content"> 
-            <img class="heroImage" src="images/cochabamba.webp" alt="Hero Image">
-            <button id="myButton2" onclick="window.location.href = 'join.html';">Join the Chamber</button>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 550px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 960px)">
+                <img src="images/hero-large.webp" alt="hero image" width="500" height="250">
+            </picture>
+            <div class="herolabel">
+                <a href="join.html">Join the Chamber</a>
+            </div>
+        </div>
             
             <div class="cards">
                 <div class="information">

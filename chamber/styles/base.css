@@ -80,6 +80,42 @@ ul.open {
 li.current-menu-item a {
     background-color: rgba(0, 0, 0, 0.2);
 }
+
+/*Home Hero image*/
+.hero{
+    position: relative;
+}
+.hero picture{
+    width: 100%;
+    display: block;
+}
+.hero img{
+    width: 100%;
+    height: auto;
+}
+
+.herolabel {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    background-color: var(--primary-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 5px;
+    color: var(--secondary-color);
+    text-align: center;
+    padding: .5rem;
+    box-shadow: 0 0 3rem #fff;
+}
+
+.herolabel a {
+    margin: 0;
+    padding: .15rem;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
 /* Main content section */
 #main-content {
     max-width: 1300px;
@@ -101,18 +137,6 @@ li.current-menu-item a {
 .cards{
     display: grid;
     grid-template-columns: 1fr;
-}
-
-#myButton2 {
-    position: absolute;
-    height: 50px;
-    top: 50%;
-    right: 10%;
-    cursor: pointer;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    text-align: center;
-    padding: 1rem;
 }
 
 .heroImage {

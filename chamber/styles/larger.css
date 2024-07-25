@@ -21,37 +21,30 @@
         display: inline-block;
         margin-right: 20px;
     }
-    .heroImage {
-        width: 1260px;
-        height: 600px;
-        padding: 0;
-    }
-    #myButton2 {
-        position: absolute;
-        width: 220px;
-        height: 60px;
-        top: 30%;
-        right: 30%;
-        cursor: pointer;
-        background-color: var(--primary-color);
-        color: var(--secondary-color);
-        text-align: center;
-        padding: 1rem;
-        border-radius: 5px;
-        box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
-    }
+    
+    
     /*Home*/
+    .herolabel {
+        position: absolute;
+        top: 20%;
+        left: 65%;
+        padding: 1rem;
+    }
+    
+    .herolabel a {
+        
+        font-weight: 600;
+        font-size: 1rem;
+    }
     .information {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }   
-    .events {
-        grid-column: 1/3;
-    }
+
     
     .bussines { 
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     /*Discover*/
     .discover{
@@ -110,7 +103,18 @@
     
 
     /*home page*/
+    .information {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }   
+    .events {
+        grid-column: 1/3;
+    }
     
+    .bussines { 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     /*Discover page large*/
 
     footer .container {
