@@ -5,7 +5,7 @@
         "address": "123 Main St, City, State, ZIP",
         "phone": "123-456-7890",
         "website": "https://www.companya.com",
-        "image": "companya.png",
+        "imageurl": "./images/camara1.webp",
         "membershipLevel": "Gold",
         "otherInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur."
         },
@@ -14,7 +14,7 @@
         "address": "456 Oak Ave, City, State, ZIP",
         "phone": "234-567-8901",
         "website": "https://www.companyb.com",
-        "image": "companyb.png",
+        "imageurl": "./images/camara2.webp",
         "membershipLevel": "Silver",
         "otherInfo": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
         },
@@ -23,8 +23,8 @@
         "address": "789 Elm Blvd, City, State, ZIP",
         "phone": "345-678-9012",
         "website": "https://www.companyc.com",
-        "image": "companyc.png",
-        "membershipLevel": "Bronze",
+        "imageurl": "./images/camara3.webp",
+        "membershipLevel": "Gold",
         "otherInfo": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
         },
         {
@@ -32,7 +32,7 @@
         "address": "321 Pine Ln, City, State, ZIP",
         "phone": "456-789-0123",
         "website": "https://www.companyd.com",
-        "image": "companyd.png",
+        "imageurl": "./images/camara4.webp",
         "membershipLevel": "Gold",
         "otherInfo": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
         },
@@ -41,8 +41,8 @@
         "address": "654 Maple Dr, City, State, ZIP",
         "phone": "567-890-1234",
         "website": "https://www.companye.com",
-        "image": "companye.png",
-        "membershipLevel": "Platinum",
+        "imageurl": "./images/camara6.webp",
+        "membershipLevel": "Gold",
         "otherInfo": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         },
         {
@@ -50,7 +50,7 @@
         "address": "987 Cedar Rd, City, State, ZIP",
         "phone": "678-901-2345",
         "website": "https://www.companyf.com",
-        "image": "companyf.png",
+        "imageurl": "./images/camara7.webp",
         "membershipLevel": "Gold",
         "otherInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur."
         },
@@ -59,7 +59,16 @@
         "address": "210 Oakwood Ave, City, State, ZIP",
         "phone": "789-012-3456",
         "website": "https://www.companyg.com",
-        "image": "companyg.png",
+        "imageurl": "./images/camara8.webp",
+        "membershipLevel": "Silver",
+        "otherInfo": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+        },
+        {
+        "name": "Company H",
+        "address": "210 Oakwood Ave, City, State, ZIP",
+        "phone": "789-012-3456",
+        "website": "https://www.companyg.com",
+        "imageurl": "./images/camara9.webp",
         "membershipLevel": "Silver",
         "otherInfo": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
         }
