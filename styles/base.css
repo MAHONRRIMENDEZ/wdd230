@@ -149,10 +149,31 @@ h3 {
 .card1, .card2 {
   background-color: #9cd2d3;
 }
+
+.card3 #description {
+  text-transform: capitalize;
+  margin: 0.5rem;
+}
+.card3 #town {
+  font-size: 2rem;
+  color: black;
+}
+.card3 #temperature {
+  font-size: 2rem;
+  color: black;
+  margin: .3rem;
+}
+
+#graphic{
+  width: 10rem;
+  height: 5rem;
+}
+
 .visits{
   font-size: 1.5rem;
   text-decoration: underline;
 }
+
 .maps{
   margin: 1rem;
   padding: 1.5rem;
