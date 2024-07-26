@@ -1,0 +1,89 @@
+{
+    "weeks": [
+        {
+            "week": "week 1",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "HG Layout"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "mQueries"
+                }
+            ]
+        },
+        {
+            "week": "week 2",
+            "links": [
+                {
+                    "url": "week02/holygrail.html",
+                    "title": "Design"
+                },
+                {
+                    "url": "week02/hamMenu.html",
+                    "title": "Menu"
+                }
+                ,
+                {
+                    "url": "week02/BOM-25.html",
+                    "title": "BOM-25"
+                }
+            ]
+        },
+        {
+            "week": "week 3",
+            "links": [
+                {
+                    "url": "week03/webpImages.html",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week03/lazyLoading.html",
+                    "title": "Lazy"
+                },
+                {
+                    "url": "week03/srcset.html",
+                    "title": "srcset"
+                },
+                {
+                    "url": "week03/localStorage.html",
+                    "title": "LocalStorage"
+                }
+                
+            ]
+        },
+        {
+            "week": "week 4",
+            "links": [
+                {
+                    "url": "week04/pseudo-Clases.html",
+                    "title": "Pseudo-Clases"
+                },
+                {
+                    "url": "week04/tables.html",
+                    "title": "Tables"
+                }
+            ]
+        },
+        {
+            "week": "week 5",
+            "links": [
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "Json practice"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Prophets fetch practice"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Third-party API"
+                }
+                
+            ]
+        }
+        
+    ]
+}
