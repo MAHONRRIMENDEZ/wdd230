@@ -133,6 +133,8 @@ h3 {
   margin: 1rem;
   padding: 0.5rem;
 }
+
+
 .cards{
     display: grid;
     grid-template-columns: 1fr;
@@ -140,15 +142,41 @@ h3 {
     margin: 1rem;
     
 }
+
 .cards p{
   padding: 0.5rem;
 }
-.card1 ul li{
-  padding: 0.5rem;
-}
+
+
 .card1, .card2 {
   background-color: #9cd2d3;
 }
+
+.card1 ul {
+  list-style-type: none;
+  display: flex;
+  margin: 1rem;
+}
+.card1 h4 {
+  float: left;
+  margin-right: -1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.card1 li {
+  margin-top: 1rem;
+
+}
+
+.card1 li a{
+  text-decoration: none;
+  padding: .25rem;
+}
+
+.card1 li a:hover {
+  text-decoration: underline; 
+}
+
 
 .card3 #description {
   text-transform: capitalize;
